@@ -17,3 +17,10 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+include:
+  - board: lily58_left
+    artifact-name: lily58_left
+  - board: lily58_right
+    artifact-name: lily58_right
+  - board: lily58_reset
+    artifact-name: lily58_reset
