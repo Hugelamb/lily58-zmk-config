@@ -1,0 +1,415 @@
+layout: {qmk_keyboard: lily58_rotated}
+layers:
+  DEF:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - ''
+  - '&hgl LGUI A'
+  - '&hml LALT S'
+  - '&hml LCTRL D'
+  - '&hml LSHFT F'
+  - G
+  - H
+  - '&hmr RSHFT J'
+  - '&hmr LCTRL K'
+  - '&hmr LALT L'
+  - '&hgr LGUI SEMI'
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - ''
+  - ''
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''
+  - '-'
+  - +
+  - {t: SPC, h: NAV}
+  - {t: RET, h: SYM}
+  - '&smart_num NUM 0'
+  - '&smrt_shft'
+  - '&bs_del'
+  - ''
+  にはんご:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&lt5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - '&hgl LGUI A'
+  - '&hml LALT S'
+  - '&hml LCTRL D'
+  - '&hml LSHFT F'
+  - G
+  - H
+  - '&hmr RSHFT J'
+  - '&hmr LCTRL K'
+  - '&hmr LALT L'
+  - '&hgr LGUI SEMI'
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - ''
+  - ''
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''
+  - '-'
+  - +
+  - {t: SPACE, h: NAV}
+  - {t: RET, h: SYM}
+  - {t: LSFT, h: sticky}
+  - {t: RSFT, h: sticky}
+  - '&bs_del'
+  - ''
+  COL:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - ''
+  - ''
+  - '&hgl LGUI A'
+  - '&hml LALT R'
+  - '&hml LCTRL S'
+  - '&hml LSHFT T'
+  - G
+  - M
+  - '&hmr RSHFT N'
+  - '&hmr LCTRL E'
+  - '&hmr LALT I'
+  - '&hgr LGUI O'
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - ''
+  - ''
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - ''
+  - '-'
+  - +
+  - {t: SPACE, h: NAV}
+  - {t: RET, h: SYM}
+  - {t: LSFT, h: sticky}
+  - {t: RSFT, h: sticky}
+  - '&bs_del'
+  - ''
+  SYM:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '`'
+  - ''
+  - ''
+  - +
+  - '='
+  - _
+  - '-'
+  - ^
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - .
+  - ''
+  - ''
+  - ''''
+  - '|'
+  - '*'
+  - '&'
+  - '"'
+  - ''
+  - ''
+  - ;
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - ''
+  - '-'
+  - +
+  - {t: SPACE, h: NAV}
+  - {t: RET, h: SYM, type: held}
+  - {t: LSFT, h: sticky}
+  - {t: RSFT, h: sticky}
+  - '&bs_del'
+  - ''
+  NAV:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Alt+F4
+  - Ctl+Sft+TAB
+  - Alt+`
+  - Ctl+TAB
+  - VOL UP
+  - PG UP
+  - ''
+  - UP
+  - ''
+  - HOME
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - {t: TAB, h: LSHFT}
+  - VOL DN
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - END
+  - ''
+  - ''
+  - Ctl+F4
+  - {t: ▽, type: trans}
+  - Ctl+INS
+  - Sft+INS
+  - ''
+  - ''
+  - ''
+  - INS
+  - PREV
+  - PP
+  - NEXT
+  - ''
+  - ''
+  - '-'
+  - +
+  - {t: SPACE, h: NAV, type: held}
+  - {t: RET, h: SYM}
+  - {t: LSFT, h: sticky}
+  - {t: RSFT, h: sticky}
+  - '&bs_del'
+  - ''
+  FUN:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - ''
+  - ''
+  - VOL UP
+  - ''
+  - PSCRN
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - Gui+Alt+Sft+LCTRL
+  - ''
+  - ''
+  - VOL DN
+  - ''
+  - ''
+  - ''
+  - ''
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - ''
+  - ''
+  - CAPS
+  - PREV
+  - PP
+  - NEXT
+  - {t: SYS, h: toggle}
+  - ''
+  - '-'
+  - +
+  - {t: SPACE, h: NAV}
+  - {t: RET, h: SYM}
+  - F11
+  - F12
+  - '&bs_del'
+  - ''
+  SYS:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR ALL
+  - ''
+  - ''
+  - OUT USB
+  - OUT BLE
+  - ''
+  - ''
+  - ''
+  - {t: にはんご, h: toggle}
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - BT PRV
+  - BT NXT
+  - ''
+  - '&sys_reset'
+  - ''
+  - ''
+  - '&sys_reset'
+  - ''
+  - ''
+  - {t: COL, h: toggle}
+  - {t: DEF, h: toggle}
+  - ''
+  - '-'
+  - +
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - '&bootloader'
+  - ''
+  - ''
+  - ''

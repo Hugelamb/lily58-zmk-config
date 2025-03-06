@@ -1,0 +1,1 @@
+west build -p -d build/left -b nice_nano_v2 -- -DSHIELD=lily58_left -DZMK_CONFIG="${HOME}/projects/lily58-zmk-config/config" -DZMK_EXTRA_MODULES="${HOME}/projects/zmk-extra-modules/zmk-auto-layer;${HOME}/projects/zmk-extra-modules/zmk-helpers;${HOME}/projects/zmk-extra-modules/zmk-includes;${HOME}/projects/zmk-extra-modules/zmk-leader-key"
